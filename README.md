@@ -2,7 +2,7 @@
 Demo repo
 
 ## Steps for connecting node TOGETHER
-1. Install MISE `brew install mise` and `mise activate`. We use this to manage erlang and elixir versions.
+1. Install MISE `brew install mise` and `mise activate` and `eval "$(mise activate zsh)"`. Restart Terminla. We use this to manage erlang and elixir versions.
 2. run `mise trust` and `mise install`
 3. Get local ip `ipconfig getifaddr en0` and save it (we need it later)
 4. run `mix deps.get`
