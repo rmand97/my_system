@@ -11,7 +11,7 @@ Demo repo
 Commands for connecting and sending messages
 ```elixir
 iex> Chat.start()
-iex> Node.self()
+iex> Node.self() # Here you can see your app name and host
 iex> Chat.connect(:"some-node@node-host")
 iex> Chat.broadcast("Speak 'friend' and enter")
 ```
